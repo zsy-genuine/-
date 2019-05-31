@@ -1,0 +1,3 @@
+<!--pages/backuautio/backuautio.wxml-->
+<!-- <text>pages/backuautio/backuautio.wxml</text> -->
+<button bindtap="playmusic">{{musicflag?'播放':'暂停'}}</button>

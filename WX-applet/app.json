@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/event/event",
+    "pages/note/note",
+    "pages/artlist/artlist",
+    "pages/detail/detail",
+    "pages/ajaxdom/ajaxdom",
+    "pages/animate/animate",
+    "pages/index/index",
+    "pages/backuautio/backuautio",
+  
+    "pages/list/list",
+    "pages/logs/logs",
+    "pages/add/add"
+  ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "black",
+    "selectedColor": "blue",
+    "list": [
+      {
+        "pagePath": "pages/event/event",
+        "text": "事件",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected.png"
+      },
+      {
+        "pagePath": "pages/ajaxdom/ajaxdom",
+        "text": "搜索",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "images/icons/weekly.png",
+        "selectedIconPath": "images/icons/weekly-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap39.json"
+}

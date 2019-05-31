@@ -1,0 +1,21 @@
+<!--pages/detail/detail.wxml-->
+<!-- <text>pages/detail/detail.wxml</text> -->
+<!-- 通过include引入wxml 包括样式都直接引入进来 -->
+<include src="../index/index.wxml" />
+<!-- 通过import引入模板 -->
+<import src="../tmpl/tmpl.wxml" />
+<view class=''>
+<!-- is对应的是你定义的模板的name 模板传值是用data直接传值-->
+<!-- 用扩展运算符传值可以有效地预防数据不一致的风险 -->
+  <template data="{{...singleData}}" is="list-item"></template>
+  <!-- <text>
+  {{singleData.title}}
+  </text> 
+   <text>
+  {{singleData.content}}
+  </text>
+  <block wx:for="{{singleData.roating}}">
+      <image wx:if="{{item==1}}" class='star' src='../../images/star1.png'></image>
+      <image wx:else  class='star' src='../../images/star2.png'></image>
+      </block> -->
+</view>

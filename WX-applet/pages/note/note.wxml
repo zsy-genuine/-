@@ -1,0 +1,11 @@
+<!--pages/note/note.wxml-->
+<!-- <text>pages/note/note.wxml</text> -->
+<view>
+  <block wx:for="{{notelist}}">
+    <text>{{item.title}}\n</text>
+    
+    <text>{{item.content}}</text>
+  </block>
+  <button bindtap='toAdd'>添加</button>
+  <button>清除</button>
+</view>

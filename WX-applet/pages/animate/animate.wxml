@@ -1,0 +1,3 @@
+<!--pages/animate/animate.wxml-->
+<!-- <text>pages/animate/animate.wxml</text> -->
+<view class='anmitabox' animation="{{anmiteData}}"></view>

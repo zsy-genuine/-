@@ -1,0 +1,7 @@
+/* pages/detail/detail.wxss */
+/* .star{
+  display:inline-block;
+  width: 36rpx;
+  height: 36rpx;
+} */
+@import "../tmpl/tmpl.wxss"

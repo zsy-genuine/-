@@ -1,0 +1,27 @@
+<!--pages/artlist/artlist.wxml-->
+<!-- <text>pages/artlist/artlist.wxml</text> -->
+<import src="../tmpl/tmpl.wxml" />
+<view class=''>
+  <!-- scroll-view滚动的时候需要设置固定高度或者宽度 -->
+  <scroll-view style="height: 600rpx;" scroll-y="true" bindscrolltolower="tobottom">
+  <block wx:for="{{artData}}">
+    <view bindtap="todetail" data-id="{{item.id}}">
+      <template  is="list-item" data="{{...item}}"></template>
+    </view>
+    <!-- <view class="" bindtap="todetail" data-id="{{item.id}}" >
+       <text>
+      {{item.title}}
+      </text> 
+      <text>
+        {{item.content}}
+      </text>
+      
+      <block wx:for="{{item.roating}}">
+      <image wx:if="{{item==1}}" class='star' src='../../images/star1.png'></image>
+      <image wx:else  class='star' src='../../images/star2.png'></image>
+      </block>
+    </view> -->
+   
+  </block>
+  </scroll-view>
+</view>

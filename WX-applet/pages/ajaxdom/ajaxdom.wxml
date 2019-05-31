@@ -1,0 +1,8 @@
+<view>
+  <input value="{{val}}" type="text" bindinput="tosearch" />
+  <block wx:for="{{searchlist}}">
+    <text>
+    {{item}}
+    </text>
+  </block>
+</view>
